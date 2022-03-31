@@ -142,6 +142,7 @@ img {
 .hero-section {
   background-color: var(--accent-bg-color);
   text-align: center;
+  max-width: 1600px;
   height: 600px;
   background-image: linear-gradient( 125deg, rgba(49, 43, 43, 0.7), rgba(47, 48, 58, 0.4)),
    url("../images/Imgfon.jpg");
@@ -159,6 +160,7 @@ img {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
+  text-transform: uppercase;
 }
 .button-primary {
   color: var(--accent-color);
@@ -195,10 +197,33 @@ h3 {
   line-height: 1.14;
   margin-top: 0px;
   margin-bottom: 10px;
+  text-transform: uppercase;
 }
-.successes-content {
+.successes-content::before { 
+  display: block;
+  content: "";
   width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: var(--specific-bg-color);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 4px;
+} 
+.icon-antenna::before {
+  background-image: url();
 }
+.icon-watch::before {
+  background-image: url();
+}
+.icon-diagram::before {
+  background-image: url();
+}
+.icon-astronaut::before {
+  background-image: url();
+}
+
 .successes-scroll {
   margin: 0px;
   padding: 0px;
