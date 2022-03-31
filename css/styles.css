@@ -143,6 +143,7 @@ img {
   background-color: var(--accent-bg-color);
   text-align: center;
   height: 600px;
+  background-image: url("../images/Imgfon.jpg");
 }
 .hero-container {
   padding-top: 200px;
