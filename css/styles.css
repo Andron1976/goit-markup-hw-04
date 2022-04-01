@@ -144,8 +144,13 @@ img {
   text-align: center;
   max-width: 1600px;
   height: 600px;
+  margin-left: auto;
+  margin-right: auto;
   background-image: linear-gradient( 125deg, rgba(49, 43, 43, 0.7), rgba(47, 48, 58, 0.4)),
    url("../images/Imgfon.jpg");
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .hero-container {
   padding-top: 200px;
