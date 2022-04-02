@@ -459,3 +459,6 @@ h3 {
 .phone-footer:focus {
   color: var(--specific-color);
 }
+.color-aside {
+  color: var(--accent-color);
+}
