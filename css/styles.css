@@ -415,15 +415,20 @@ h3 {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+.footer-containers {
+  display: flex;
+}
 .logotyp-footer {
   color: var(--accent-color);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  text-decoration: none;
 }
 .footer-contacts {
   padding: 0px;
-  margin: 0px;
+  margin: 0px 70px 0px 0px;
+  width: 231px;
 }
 .address-footer {
   color: var(--accent-color);
@@ -459,6 +464,33 @@ h3 {
 .phone-footer:focus {
   color: var(--specific-color);
 }
+.footer-aside {
+  padding-top: 12px;
+}
 .color-aside {
   color: var(--accent-color);
+  margin-bottom: 20px;
 }
+.socials {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 0px;
+}
+.socials-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-right: 10px;
+}
+.socials-link:hover {
+  background-color: var(--specific-color);
+}
+.socials-img {
+  width: 20px;
+  height: 20px;
+  fill: var(--accent-color);}
