@@ -88,37 +88,20 @@ img {
 .head-names:focus {
   color: var(--specific-color);
 }
+
+/*head-contacts*/
 .head-contacts {
   margin: 0px;
   padding: 0px;
 }
-.envelope {
-  display: flex;
-  align-items: center;
-}
-.tel {
-  display: flex;
-  align-items: center;
+.head-contacts-elements {
   margin-left: 30px;
 }
-.icon-envelope
-{
+.contact-head-icon {
   width: 16px;
-  height: 12px;
-  fill: var(--primary-text-color);
-}
-.icon-envelope:hover,
-.icon-envelope:focus {
-  fill: var(--specific-color);
-}
-.icon-telok {
-  width: 10px;
   height: 16px;
   fill: var(--primary-text-color);
-}
-.icon-telok:hover,
-.icon-telok:focus {
-  fill: var(--specific-color);
+  margin-right: 10px;
 }
 .contact-head {
   color: var(--primary-text-color);
@@ -126,13 +109,18 @@ img {
   font-weight: 500;
   line-height: 16px;
   text-decoration: none;
-  margin-left: 10px;
+  margin: 0;
+  display: flex;
+  align-items: center;
 }
 
 .contact-head:hover,
 .contact-head:focus {
   color: var(--specific-color);
-}
+} 
+.contact-head:hover .contact-head-icon,
+.contact-head:focus .contact-head-icon{
+fill: var(--specific-color);}
 
 /* hero */
 .hero-section {
@@ -286,7 +274,6 @@ h3 {
   margin: 0px;
   padding: 0px;
 }
-
 .clients {
   width: 170px;
   height: 92px;
@@ -297,7 +284,6 @@ h3 {
   box-sizing: border-box;
   border-radius: 4px;
 }
-
 .clients-icon {
   width: 106px;
   height: 60px;
@@ -308,8 +294,8 @@ h3 {
 .clients:focus {
   border: 2px solid var(--specific-color);
 }
-.clients-icon:hover,
-.clients-icon:focus {
+.clients:hover .clients-icon,
+.clients:focus .clients-icon   {
   fill: var(--specific-color);
 }
 
@@ -479,7 +465,7 @@ h3 {
 .gray-img {
     fill: #AFB1B8;
   }
-.gray-img:hover,
-.gray-img:focus {
+.socials-link:hover .gray-img,
+.socials-link:focus .gray-img {
     fill: var(--accent-color);
 }
